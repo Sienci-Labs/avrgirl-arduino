@@ -1,8 +1,10 @@
 {
-  "name": "avrgirl-arduino",
-  "version": "5.0.1",
+  "name": "@sienci/avrgirl-arduino",
+  "version": "5.0.2",
   "description": "A NodeJS library for flashing compiled sketch files to Arduino microcontroller boards.",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "avrgirl-arduino": "bin/cli.js"
+  },
   "main": "avrgirl-arduino-node.js",
   "module": "dist/avrgirl-arduino.min.js",
   "scripts": {
@@ -15,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/noopkat/avrgirl-arduino.git"
+    "url": "git+https://github.com/noopkat/avrgirl-arduino.git"
   },
   "keywords": [
     "arduino",
@@ -67,5 +69,9 @@
   "browser": {
     "graceful-fs": false,
     "serialport": false
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
   }
 }
