@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noopkat/avrgirl-arduino.git"
+    "url": "git+https://github.com/Sienci-Labs/avrgirl-arduino"
   },
   "keywords": [
     "arduino",
@@ -28,12 +28,12 @@
     "avrgirl",
     "avrg"
   ],
-  "author": "Suz Hinton",
+  "author": "Kevin Glover",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noopkat/avrgirl-arduino/issues"
+    "url": "hhttps://github.com/Sienci-Labs/avrgirl-arduino/issues"
   },
-  "homepage": "https://github.com/noopkat/avrgirl-arduino",
+  "homepage": "https://github.com/Sienci-Labs/avrgirl-arduino",
   "dependencies": {
     "async": "^2.6.3",
     "awty": "^0.1.0",
